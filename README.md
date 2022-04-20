@@ -10,7 +10,7 @@
         text-align: center;
       }
       h1 {
-        color: blueviolet;
+        color: black;
         font-size: 34px;
         font-weight: bolder;
         line-height: 48px;
@@ -18,10 +18,10 @@
         padding: 0 auto;
       }
       h2 {
-        font-size: 34px;
-        line-height: 48px;
+        font-size: 15px;
+        line-height: 20px;
         font-weight: 400;
-        margin: auto;
+        margin: 0px 0px 50px 0px;
         padding: auto;
       }
       p {
@@ -30,11 +30,11 @@
       }
       ul {
         list-style: none;
-        padding: 0;
-        margin: 16;
+        padding: 0px 0px 10px 0px;
+        margin: 20px;
       }
       li {
-        padding: 10px;
+        padding: 0px;
         margin: 0 auto;
         transition: all 200ms ease-in-out;
         border-radius: 10px;
@@ -44,48 +44,50 @@
         background-color: #fffbef;
       }
       button {
-        padding: 10px;
-        background: #1a64d6;
+        background: red;
         color: white;
         display: block;
         margin: 20px auto;
         text-decoration: none;
         font-size: 16px;
-        border-color: #1a64d6;
+        border-color: red;
         border-radius: 30px;
         padding: 16px 24px;
-        box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
         transition: all 150ms ease-in-out;
       }
       button:hover {
-        color: #1a64d6;
+        color: red;
         background-color: white;
-        border-color: #1a64d6;
+        border-color: red;
         cursor: pointer;
+      }
+      .footer {
+        font-size: x-small;
       }
     </style>
   </head>
   <body>
     <h1>
       <div>☀️</div>
-      Georgie Saunders
+      GEORGIE SAUNDERS
     </h1>
-    <h2>write. design. build. deliver.</h2>
+    <h2><em>professional coder and gamer girl.</em></h2>
+    <p><strong>Forcasted moods</strong></p>
     <ul>
       <li>
-        <h3>🌧 Tomorrow</h3>
-        <p>10° / <strong>22°</strong></p>
+        <h3>💨 Tomorrow</h3>
+        <p>she will be: <strong>breezy</strong></p>
       </li>
       <li>
-        <h3>🌥 Saturday</h3>
-        <p>15° / <strong>17°</strong></p>
+        <h3>🌥 Friday</h3>
+        <p>she will be: <strong>shady af</strong></p>
       </li>
       <li>
-        <h3>☀️ Sunday</h3>
-        <p>25° / <strong>28°</strong></p>
+        <h3>☀️ Saturday</h3>
+        <p>she will be: <strong>smokin' hot</strong></p>
       </li>
     </ul>
-    <button>Change city</button>
-    <p>Coded by Georgie Saunders</p>
+    <button>Notify me of any change</button>
+    <p><span class="footer">Authorised by Georgie Saunders </span></p>
   </body>
 </html>
