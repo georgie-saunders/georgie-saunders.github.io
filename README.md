@@ -89,8 +89,4 @@
     <button>Change city</button>
     <p>Coded by Georgie Saunders</p>
   </body>
-  </head>
-  <body>
-   
-  </body>
 </html>
