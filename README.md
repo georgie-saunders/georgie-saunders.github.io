@@ -7,7 +7,6 @@
     <style>
       body {
         background-color: #ede6db;
-        font-family: monospace;
       }
       h1 {
         color: #ede6db;
@@ -31,6 +30,11 @@
         color: #1d5c63;
         font-size: 20px;
         font-weight: normal;
+        font-family: verdana;
+      }
+
+      h4 {
+        font-weight: normal;
       }
       ul {
         list-style-type: circle;
@@ -39,17 +43,23 @@
       li {
         transition: all 200ms ease-in-out;
         border-radius: 4px;
-        max-width: 400px;
+        max-width: 800px;
         padding: 1px;
       }
       li:hover {
-        background-color: #a9c8cb;
+        background-color: #b4c1c0;
         padding: 5px;
       }
-      a{
-    	  text-decoration: none;
-    	  color: black;
-    	  margin: 20px;
+
+      a {
+        text-decoration: none;
+        color: black;
+        margin: 20px;
+      }
+
+      p {
+        font-family: Verdana;
+        font-size: 15px;
       }
       .skills {
         background-color: #b4c1c0;
@@ -57,28 +67,58 @@
         display: inline-table;
         border-radius: 6px;
         margin: 10px 5px 5px 20px;
-        width: 800px;
+        width: 235px;
+        min-height: 430px;
       }
       .contact {
-        margin: 20px;
+        background: #b4c1c0;
+        padding: 10px 20px;
       }
       .menu {
-    	  text-align: center;
-    	  text-transform: capitalize;
-    	  font-size: 20px;
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 20px;
+        font-family: monospace;
+      }
+      .about {
+        margin: 40px;
+        font-size: 15px;
       }
     </style>
+
   </head>
   <body>
     <h1>GEORGIE SAUNDERS</h1>
-	<div class="menu">
-		<p><a href="#1">KEY SKILLS</a> - <a href="#2">QUALIFICATIONS</a> - <a href="#3">CONTACT</a></p>
-		</div>
+    <div class="menu">
+      <h4>
+        <a href="#1">KEY SKILLS</a> - <a href="#2">QUALIFICATIONS</a> -
+        <a href="#3">CONTACT</a>
+      </h4>
+    </div>
+    <hr />
+    <div class="about">
+      <p>Hey there, I'm Georgie 👋</p>
+      <p>
+        I'm a content designer/user research. I'm also a web developer in the
+        making (watch this space, <em>literally</em>).
+      </p>
+      <p>
+        As designers, our work only matters if it works for you, the user! I'm
+        all about making technology and content accesible for everyone. I'm here
+        to advocate for users until my heart is, and their needs are, content.
+        Excuse the pun.
+      </p>
+      <p>
+        Here you will find a little bit about me, my skills and some cool things
+        I've done.
+      </p>
+      <p>Thanks for stopping by!</p>
+    </div>
     <hr />
     <h2><a id="1" name="1">KEY SKILLS</a></h2>
-	<hr />
+    <hr />
     <div class="skills">
-      <h3>CONTENT DESIGN AND DIGITAL CONTENT DEVELOPMENT</h3>
+      <h3>CONTENT DESIGN AND DEVELOPMENT</h3>
       <p>
         Experienced in writing and structuring complex information in line with
         user needs.
@@ -111,7 +151,7 @@
       <p>Prepares and presents findings in a compelling and meaningful way.</p>
     </div>
     <div class="skills">
-      <h3>TECHNICAL SKILLS</h3>
+      <h3>TECHNICAL SKILLS AND TOOLS</h3>
       <p>
         Extensive experience in a range of platforms when developing content and
         managing workflows, such as Confluence, GatherContent, Hemmingway and
@@ -122,6 +162,7 @@
         Google Analytics.
       </p>
       <p>Strong HTML and CSS coding knowledge.</p>
+      <p>Other tools: miro, typeform, azure, atlassian suite.</p>
     </div>
     <div class="skills">
       <h3>AGILE DELIVERY</h3>
@@ -131,9 +172,9 @@
       </p>
       <p>Experience in using agile tools such as Jira and Azure.</p>
     </div>
-	<hr />
+    <hr />
     <h2><a id="2" name="2">QUALIFICATIONS AND TRAINING</a></h2>
-	<hr />
+    <hr />
     <ul>
       <li>
         <p>
@@ -158,17 +199,16 @@
         <p><em>Academy Xi</em></p>
       </li>
     </ul>
-	<hr />
     <hr />
     <div class="contact">
       <h3><a id="3" name="3">CONTACT</a></h3>
       <p><a href="tel:0411821279">0411 821 279</a></p>
-      <p><a href="mailto:georgie.saunders2@gmail.com">georgie.saunders2@gmail.com</a></p>
+      <p>
+        <a href="mailto:georgie.saunders2@gmail.com"
+          >georgie.saunders2@gmail.com</a
+        >
+      </p>
     </div>
     <hr />
-    <hr />
-</br>
-</br>
-</br>
   </body>
 </html>
