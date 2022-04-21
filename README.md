@@ -7,7 +7,6 @@
 	<style>
       body {
         font-family: Arial, Helvetica, sans-serif;
-        text-align: center;
       }
       h1 {
         color: black;
@@ -64,9 +63,18 @@
       .footer {
         font-size: x-small;
       }
+      .banner {
+        background-color:#1A3C40
+      }
     </style>
   </head>
   <body>
+  <div class="banner">
+    </br>
+    </br>
+    </br>
+    </br>
+  </div>
     <h1>
       <div>☀️</div>
       GEORGIE SAUNDERS
