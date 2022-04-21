@@ -46,7 +46,6 @@
         background-color: #a9c8cb;
         padding: 5px;
       }
-
       a{
     	  text-decoration: none;
     	  color: black;
@@ -54,7 +53,7 @@
       }
       .skills {
         background-color: #b4c1c0;
-        padding: 5px 10px;
+        padding: 10px 10px;
         display: inline-table;
         border-radius: 6px;
         margin: 10px 5px 5px 20px;
@@ -69,7 +68,6 @@
     	  font-size: 20px;
       }
     </style>
-
   </head>
   <body>
     <h1>GEORGIE SAUNDERS</h1>
