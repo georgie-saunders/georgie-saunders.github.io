@@ -70,16 +70,12 @@
   </head>
   <body>
   <div class="banner">
-    </br>
-    </br>
-    </br>
-    </br>
-  </div>
     <h1>
       <div>☀️</div>
       GEORGIE SAUNDERS
     </h1>
     <h2><em>professional coder and gamer girl.</em></h2>
+    </div>
     <p><strong>Forcasted moods</strong></p>
     <ul>
       <li>
