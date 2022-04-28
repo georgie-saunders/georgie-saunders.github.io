@@ -211,4 +211,15 @@
     </div>
     <hr />
   </body>
+  <script>
+      let name = prompt("Hey there! What is your name?");
+      name = name.toLowerCase().trim();
+      {
+        alert(
+          "Hey " +
+            name +
+            ", welcome to my website! Here I'm testing out everything I'm learning in my dev course."
+        );
+      }
+    </script>
 </html>
