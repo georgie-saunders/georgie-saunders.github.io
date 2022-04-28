@@ -32,7 +32,6 @@
         font-weight: normal;
         font-family: verdana;
       }
-
       h4 {
         font-weight: normal;
       }
@@ -50,13 +49,11 @@
         background-color: #b4c1c0;
         padding: 5px;
       }
-
       a {
         text-decoration: none;
         color: black;
         margin: 20px;
       }
-
       p {
         font-family: Verdana;
         font-size: 15px;
@@ -85,9 +82,8 @@
         font-size: 15px;
       }
       .menu:hover {
-
-textdecoration: underline
-}
+        text-decoration: underline
+      } 
 </style>
 
   </head>
