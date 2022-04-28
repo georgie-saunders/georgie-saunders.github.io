@@ -24,6 +24,7 @@
         font-family: monospace;
         font-size: 34px;
         margin: 20px;
+        text-decoration: none;
       }
       h3 {
         text-align: left;
@@ -85,7 +86,8 @@
         font-size: 15px;
       } 
       .contrainer {
-        max-width: 600px;
+        min-width: 800px;
+        max-width: 800px;
         margin: 0 auto;
         padding: 15px 60px;
       }
