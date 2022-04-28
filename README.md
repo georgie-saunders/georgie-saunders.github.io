@@ -84,10 +84,16 @@
       .menu:hover {
         text-decoration: underline
       } 
+      .contrainer {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 15px 60px;
+      }
 </style>
 
   </head>
   <body>
+  <div class=contrainer>
     <h1>GEORGIE SAUNDERS</h1>
     <div class="menu">
       <h4>
@@ -210,6 +216,7 @@
       </p>
     </div>
     <hr />
+    </div>
   </body>
   <script>
       let name = prompt("Hey there! What is your name?");
