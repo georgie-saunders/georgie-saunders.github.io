@@ -54,6 +54,9 @@
         color: black;
         margin: 20px;
       }
+      a:hover {
+        text-decoration: underline
+      }
       p {
         font-family: Verdana;
         font-size: 15px;
@@ -80,9 +83,6 @@
       .about {
         margin: 40px;
         font-size: 15px;
-      }
-      .menu:hover {
-        text-decoration: underline
       } 
       .contrainer {
         max-width: 600px;
