@@ -84,7 +84,11 @@
         margin: 40px;
         font-size: 15px;
       }
-    </style>
+      .menu:hover {
+
+textdecoration: underline
+}
+</style>
 
   </head>
   <body>
