@@ -55,32 +55,8 @@ p {
   font-family: Verdana;
   font-size: 15px;
 }
-.skills {
-  background-color: #b4c1c0;
-  padding: 10px 10px;
-  display: inline-table;
-  border-radius: 6px;
-  margin: 10px 5px 5px 20px;
-  width: 235px;
-  min-height: 430px;
-}
+
 .contact {
   background: #b4c1c0;
   padding: 10px 20px;
-}
-.menu {
-  text-align: center;
-  text-transform: capitalize;
-  font-size: 20px;
-  font-family: monospace;
-}
-.about {
-  margin: 40px;
-  font-size: 15px;
-}
-.contrainer {
-  min-width: 800px;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 15px 60px;
 }
